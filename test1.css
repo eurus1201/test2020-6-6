@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+
+  #img{
+     top:-6vh;
+    left:10vw ;
+    width:515px ;
+    transform: skewX(-4deg) translate(-100px ,40px); 
+    max-height: 590px;
+    min-height: 500px;
+    height: 500px;
+    position: absolute;
+
+}
+.red-bg{
+    background-color: red;
+    height: 600px;
+    width:550px ;
+    position: relative;
+    transform: skewX(-7deg) skewY(-4deg) translate(-200px ,100px);
+    margin-right: 100px;
+}
+p{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-right: 400px;
+    font-weight: bold;
+}
+.star{
+    margin-top: 180px;
+    width: 50px;
+    height: 50px;
+}
+#rank{
+ margin-right: 400px;
+}
